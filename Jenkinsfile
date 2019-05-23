@@ -3,6 +3,6 @@ node() {
     sh('ls -la')
     checkout scm
     sh('ls -la')
-    npm install
-    npm test
+    sh('npm install')
+    sh('npm test')
 }
